@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>小学算数运算</title>
+</head>
+<body>
+<h1>小学算数运算</h1>
+ 
+   
+   <form action="/home1" method="post">
+	<p style="display:inline-block;" th:text="${cr.num1}" />
+ 	<p style="display:inline-block;" th:text="${cr.x}"   />
+ 	<p style="display:inline-block;" th:text="${cr.num2}" ></p>
+  	
+  	
+  
+    <input type="hidden" name="ans"  th:value="${cr.ans}">	
+    <input type="text" name="a">	
+    <input type="submit" value="Submit">		
+  
+   </form>
+    
+
+    
+</body>
+</html>
