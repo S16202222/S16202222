@@ -1,32 +1,41 @@
 package webadv.s99201105.calculate.repository;
 
 public class CalculateRepository {
-	private int num1;
-	private int num2;
-	public String getX() {
-		return x;
+	private int a;
+	public int getA() {
+		return a;
 	}
-	public void setX(String x) {
-		this.x = x;
+	public void setA(int a) {
+		this.a = a;
 	}
-	private String x;
-	private int ans;
-	public int getNum1() {
-		return num1;
+	public int getB() {
+		return b;
 	}
-	public void setNum1(int num1) {
-		this.num1 = num1;
+	public void setB(int b) {
+		this.b = b;
 	}
-	public int getNum2() {
-		return num2;
+	public int getId() {
+		return id;
 	}
-	public void setNum2(int num2) {
-		this.num2 = num2;
+	public void setId(int id) {
+		this.id = id;
 	}
-	public int getAns() {
-		return ans;
+	public int getC() {
+		return c;
 	}
-	public void setAns(int ans) {
-		this.ans = ans;
+	public void setC(int c) {
+		this.c = c;
 	}
+	public int getD() {
+		return d;
+	}
+	public void setD(int d) {
+		this.d = d;
+	}
+	private int b;
+	private int id;
+	
+	private int c;
+	private int d;
+	
 }
